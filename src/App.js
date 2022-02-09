@@ -22,6 +22,7 @@ this.setState({productlist:productlist})
     return (
     <div  className='wrapper'>
 
+
     <div className="add_cart">
     <input  value={this.state.productName}  onChange={(e)=>{this.setState({productName:e.target.value})}}/>
 
