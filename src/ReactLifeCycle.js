@@ -8,6 +8,7 @@ export  class ReactLifeCycle extends Component{
             name:"karuppasamy"
         }
     }
+    
 
     componentDidMount(){
         console.log("componentDidMount")
